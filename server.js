@@ -6,8 +6,9 @@ global.config = require("./modules/config");
 
 // connection to DB
 // connection to DB
+// connection to DB
 mongoose.connect("mongodb://127.0.0.1:27017/komehgardi");
-mongoose.Promise = global.Promise
+mongoose.Promise = global.Promise;
 
 
 const Schema = mongoose.Schema;
